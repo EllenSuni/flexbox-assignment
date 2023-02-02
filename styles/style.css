@@ -1,0 +1,92 @@
+.screen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.screen--red {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #370617;
+}
+
+.card--yellow {
+    background-color: rgb(214, 140, 56);
+    max-width: 500px;
+    width: 100%;
+    margin: 10px;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.card__square {
+    min-height: 78px;
+    width: 78px;
+    background-color: #9D0208;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+.card__one {
+    display: flex;
+    align-items: flex-end;
+}
+
+.card__two {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.card__three {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card__four {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card__four--different {
+    align-self: flex-end;
+}
+
+.card__five {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    color: #fff;
+    text-align: center;
+}
+
+.card__five--one {
+    align-self: center;
+}
+
+.card__five--two {
+    order: -1;
+    align-self: baseline;
+}
+
+
+
+.card__six {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__six--middle {
+    flex-grow: 1;
+    margin: 10px;
+}
+
+
+
+
+
