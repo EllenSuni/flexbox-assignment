@@ -59,21 +59,15 @@
 .card__five {
     display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: baseline;
     color: #fff;
     text-align: center;
 }
 
-.card__five--one {
-    align-self: center;
+.card__five--side {
+    height: 120px;
+    padding-top: 6%;
 }
-
-.card__five--two {
-    order: -1;
-    align-self: baseline;
-}
-
-
 
 .card__six {
     display: flex;
