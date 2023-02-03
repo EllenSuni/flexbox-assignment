@@ -6,6 +6,8 @@
     align-content: center;
 }
 
+/* SQUARES */
+
 .screen--red {
     min-height: 100vh;
     width: 100%;
@@ -81,6 +83,68 @@
 }
 
 
+/* CIRCLES */
 
+.screen--yellow {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #FAA307;
+}
 
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 900px;
+}
+
+.circle {
+    background-color: #748CAB;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.card--blue {
+    background-color: #03071E;
+}
+
+.card--red {
+    background-color: #6A040F;
+}
+
+.card-bottom {
+    max-width: 273px;
+    width: 100%;
+    height: 220px;
+    margin: 10px;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.card-bottom__two {
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+}
+
+.card-bottom__three {
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.card-bottom__four {
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+.card-bottom__five {
+    justify-content: center;
+    align-content: center;
+}
+  
 
